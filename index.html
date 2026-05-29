@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroSustentável | O Futuro da Agricultura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">Agro<span>Sustentável</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#pilares">Pilares</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
+                <li><a href="#contato" class="btn-nav">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Alimentando o Mundo, <br><span>Preservando o Futuro</span></h1>
+            <p>A agricultura sustentável une a tecnologia de ponta à conservação ambiental para garantir a segurança alimentar das próximas gerações.</p>
+            <a href="#pilares" class="btn-main">Saiba Mais</a>
+        </div>
+    </section>
+
+    <section id="pilares" class="section-container">
+        <h2 class="section-title">Os 3 Pilares do Agro do Amanhã</h2>
+        <div class="grid-cards">
+            <div class="card">
+                <div class="card-icon">🌱</div>
+                <h3>Preservação Ambiental</h3>
+                <p>Práticas como o plantio direto, rotação de culturas e manejo biológico que protegem o solo e a biodiversidade local.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">💧</div>
+                <h3>Eficiência de Recursos</h3>
+                <p>Uso inteligente da água através de irrigação gota a gota e reaproveitamento da chuva, evitando o desperdício.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">📈</div>
+                <h3>Viabilidade Econômica</h3>
+                <p>Garantir que a produção sustentável seja lucrativa para o produtor, gerando empregos e movendo a economia verde.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="tecnologias" class="tech-section">
+        <div class="tech-container">
+            <h2>Tecnologia a Serviço da Terra</h2>
+            <p>Clique nos botões abaixo para explorar as inovações que estão transformando o campo:</p>
+            
+            <div class="tech-tabs">
+                <button class="tab-btn active" data-target="tab-1">Drones e Sensores</button>
+                <button class="tab-btn" data-target="tab-2">Manejo Biológico</button>
+                <button class="tab-btn" data-target="tab-3">Energia Limpa</button>
+            </div>
+
+            <div class="tech-content">
+                <div id="tab-1" class="tab-pane active">
+                    <h3>Monitoramento de Precisão</h3>
+                    <p>Drones e sensores de solo analisam a saúde da lavoura em tempo real. Isso permite aplicar água e fertilizantes apenas onde é realmente necessário, reduzindo custos e impactos ambientais.</p>
+                </div>
+                <div id="tab-2" class="tab-pane">
+                    <h3>Bioinsumos</h3>
+                    <p>A utilização de microrganismos e defensores biológicos substitui gradativamente os defensivos químicos tradicionais, protegendo os polinizadores e a qualidade do ecossistema.</p>
+                </div>
+                <div id="tab-3" class="tab-pane">
+                    <h3>Fazendas Autossuficientes</h3>
+                    <p>A instalação de painéis solares e usinas de biomassa transformam resíduos agrícolas em energia limpa, reduzindo a pegada de carbono de toda a cadeia produtiva.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact-section">
+        <div class="contact-container">
+            <h2>Junte-se à Revolução Verde</h2>
+            <p>Quer saber como aplicar essas soluções na sua região ou fechar parcerias? Entre em contato conosco.</p>
+            
+            <form id="contactForm" class="contact-form">
+                <input type="text" id="name" placeholder="Seu Nome" required>
+                <input type="email" id="email" placeholder="Seu E-mail" required>
+                <textarea id="message" rows="5" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit" class="btn-submit">Enviar Mensagem</button>
+            </form>
+            <div id="formFeedback" class="form-feedback hidden"></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 AgroSustentável. Desenvolvido para um futuro melhor.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
